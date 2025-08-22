@@ -16,3 +16,6 @@ fill_to = Vector2(1, 0.5)
 
 [node name="Face" type="Sprite2D" parent="."]
 texture = SubResource("GradientTexture2D_s7hhp")
+
+[node name="Hour0" type="Polygon2D" parent="Face"]
+color = Color(0, 0, 0, 1)
