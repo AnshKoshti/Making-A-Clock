@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbxqk1nsr6nqc"]
+
+[sub_resource type="Gradient" id="Gradient_a24i7"]
+offsets = PackedFloat32Array(0.98, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_s7hhp"]
+gradient = SubResource("Gradient_a24i7")
+width = 256
+height = 256
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(1, 0.5)
+
+[node name="Clock" type="Node2D"]
+
+[node name="Face" type="Sprite2D" parent="."]
+texture = SubResource("GradientTexture2D_s7hhp")
