@@ -22,3 +22,4 @@ import/blender/enabled=false
 [rendering]
 
 anti_aliasing/quality/msaa_2d=2
+environment/defaults/default_clear_color=Color(0.282353, 0.286275, 0.411765, 1)
